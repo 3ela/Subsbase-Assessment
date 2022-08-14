@@ -74,7 +74,16 @@
             @change='getStocks'
           ></v-text-field>
         </v-col>
-        <v-col align='center' justify='end' class="mt-auto mb-2" cols='2'>
+        <v-col align='center' justify='end' class="mt-auto mb-2" cols='3'>
+          <v-btn
+            fab
+            x-small
+            color='primary'
+            @click="getStocks"
+            class="mx-2"
+          >
+            <v-icon>mdi-magnify</v-icon>
+          </v-btn>
           <v-btn
             fab
             x-small
